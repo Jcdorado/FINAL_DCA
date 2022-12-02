@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Inicio </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+        type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="main-section">
+        <!-- Aside section-->
+        <aside>
+            <img class="aside-logo" src="../assets/logo.JPG" alt="">
+            <div>
+                <a href="../main">
+                    <img class="aside-home" src="../assets/main_inicio.JPG" alt="">
+                </a>
+                <img class="aside-options" src="../assets/main_options.JPG" alt="">
+                <a href="../create">
+                    <img class="aside-create" src="../assets/main_crear.JPG" alt="">
+                </a>
+            </div>
+
+            <div class="aside-more">
+                <img src="../assets/main-more.JPG" alt="">
+            </div>
+        </aside>
+
+        <section>
+           <div>
+
+           
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="">
+                    <div class="create-user-info">
+                        <span id="create-user-name">  </span>
+                    </div>
+                </div>
+            
+                <div class="post-description">
+
+                    <h3> Crear un nuevo post</h3>
+                    
+                    <div class="create-input-field">
+                        <label for="formFile"> Escribe tu ubicación</label>
+                        <input id="create-location" type="text">
+                    </div>
+
+                    <div class="create-image">
+                        <label for="formFile">Sube tu imagen (Formato 1:1
+                            )</label>
+                        <input id="create-img" type="file" accept="image/png, image/jpeg">
+                    </div>
+                  
+                    <div class="create-input-field">
+                        <label for="formFile"> Escribe tu descripción</label>
+                        <input id="create-description" type="text">
+                    </div>
+
+                    <button id="create-button"> Subir </button>
+
+
+                </div>
+           <p class="post-success" id="post-success">Has subido tu post con exito</p>
+        </section>
+        
+    </div>
+
+    <script type="module" src="../firebase/index.js" async defer></script>
+</body>
+
+</html>

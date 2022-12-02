@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Log In</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main_login">
+        <img class="main-img" src="./assets/login_main_image.JPG" alt="">
+        <div>
+            <div class="main_input">
+                <img class="main-logo" src="./assets/logo.JPG" alt="">
+                <input id="loginName" placeholder="Correo electrónico" type="text">
+                <input id="loginPassword" type="password" placeholder="Contraseña" type="text">
+                <button id="sign-in-button"> Entrar </button>
+                <img class="main-spacer" src="./assets/main_spacer.JPG" alt="">
+                <img class="main-facebook" src="./assets/main_facebook_login.JPG" alt="">
+                <p>¿Has olvidado la contraseña?</p>
+            </div>
+
+            <div class="account-forget">
+                <p>¿No tienes una cuenta? <a href="./register"><span> Registrate </span>  </a></p>
+            </div>
+
+            <div class="main-store">
+                <p> Descarga la aplicación</p>
+                <div>
+                    <img src="./assets/stores.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-features">
+        <div>
+            <p> Meta </p>
+            <p>Información </p>
+            <p>Blog </p>
+            <p>Empleo </p>
+            <p>Ayuda </p>
+            <p>API </p>
+            <p>Privacidad </p>
+            <p>Condiciones </p>
+            <p>Cuentas destacadas </p>
+            <p>Hashtags </p>
+            <p>Ubicaciones </p>
+            <p>Instagram Lite </p> 
+            <p>Subir contactos y personas no usuarias </p>
+        </div>
+    </div>
+
+    <script type="module" src="./firebase/index.js" async defer></script>
+</body>
+
+</html>

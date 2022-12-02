@@ -1,0 +1,124 @@
+/* Main login screen*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-img{
+  height: 650px;
+}
+
+.main_login .main_input {
+    margin: 0 45px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: .5px;
+    padding: 20px 40px;
+    border-color: rgb(202, 202, 202);
+    border-radius:10px;
+}
+
+
+.main_login .main_input input {
+    margin: 10px 0;
+    width: 300px;
+    height: 40px;
+    border-color: rgb(217, 217, 217);
+    border-width: .1px; 
+    border-radius: 5px;
+}
+
+.main_login .main_input button {
+    height: 40px;
+    border-style: none;
+    background-color: rgb(7, 137, 250);
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.main_login .main_input button:hover {
+    cursor: pointer;
+    background-color: rgb(6, 111, 202);
+
+}
+
+.main_login .main_input p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.main-logo {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.main-facebook {
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.account-forget{
+    margin: 10px 45px;
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-width: .5px;
+        padding: 5px 20px;
+        border-color: rgb(202, 202, 202);
+        border-radius: 10px;
+        text-align: center;
+}
+
+.account-forget span {
+    font-weight: bold;
+    color: rgb(7, 137, 250);
+}
+
+.main-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-features div{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.main-features div p {
+    color: gray;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+/* Register */
+
+.register-cta{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.register-facebook{
+    margin-top: 0px;
+    width: 250px;
+    margin-left: 21px;
+}
+
+.main_input div section{
+    max-width: 300px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
