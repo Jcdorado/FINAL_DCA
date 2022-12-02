@@ -133,7 +133,7 @@ if (buttonSignIn) {
 
                 const user = userCredential.user;
                 console.log("Log in succesfull");
-                window.location.href = "../main";
+                window.location.href = "../FINAL_DCA/main";
 
                 // ...
             })
